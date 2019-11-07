@@ -105,7 +105,8 @@ button:focus {
     margin: auto;
     width: 100%;
     padding-left: 0px;
-    padding-right: 0px; } }
+    padding-right: 0px; } 
+}
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
@@ -319,6 +320,7 @@ button:focus {
       color: #fff;
       vertical-align: middle;
       align-self: center; }
+
       .home_banner_area .banner_inner .banner_content h5 {
         text-transform: uppercase;
         font-family: "Roboto", sans-serif;
@@ -2190,9 +2192,8 @@ h6 {
 	background-color: #76bdb5;
 }
   .main_btn2:hover {
-	color: #fff;
-	background: rgba( 0, 0, 0, 0.5);
-	border: 1px solid #fff;
+	color: #000;
+	background: rgba( 255, 255, 255, 0.6);
 }
 
 .submit_btn {
