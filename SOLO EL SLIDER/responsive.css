@@ -1,0 +1,30 @@
+
+    /*
+    section.team .flex-control-thumbs {
+        display: none;
+    }
+*/
+    /*
+    section.team .flexslider {
+        padding-top: 0;
+    }
+*/
+    .flex-control-thumbs img {
+        height: 60px;
+        width: 60px;
+    }
+    .flex-control-nav.flex-control-thumbs>li .flex-active {
+        border: 5px solid #fff;
+        height: 130px;
+        margin-top: -20px;
+        width: 130px;
+    }
+    section.team .flexslider {
+        padding-top: 200px;
+    }
+    section.team .flexslider .team-text h3 {
+        margin-top: 0px;
+    }
+    section.team .flex-control-thumbs {
+        top: -55px;
+    }
