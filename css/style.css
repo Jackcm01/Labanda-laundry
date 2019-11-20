@@ -42,6 +42,20 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:300,400,500,700");
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf) format("opentype");
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf) format("opentype");
+}
+
+* {
+  font-family: "D-DIN", "D-DIN-Bold";
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -62,12 +76,12 @@ a {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "D-DIN";
   font-weight: normal;
   color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Serif", serif;
+  font-family: "D-DIN-Bold";
   font-weight: bold; }
 
 button:focus {
@@ -114,13 +128,13 @@ button:focus {
   max-width: 670px;
   margin: 0px auto 75px; }
   .main_title h2 {
-    font-family: "PT Serif", serif;
+    font-family: "D-DIN-Bold";
     font-size: 42px;
     color: #222222;
     margin-bottom: 15px; }
   .main_title p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "D-DIN";
     font-weight: normal;
     line-height: 24px;
     color: #777777;
@@ -2785,4 +2799,27 @@ section.team .text>p {
     color: rgb(176, 190, 197);
 }
 
+.flex-control-thumbs img {
+  height: 60px;
+  width: 60px;
+}
+.flex-control-nav.flex-control-thumbs>li .flex-active {
+  border: 5px solid #fff;
+  height: 130px;
+  margin-top: -20px;
+  width: 130px;
+}
+section.team .flexslider {
+  padding-top: 200px;
+}
+section.team .flexslider .team-text h3 {
+  margin-top: 0px;
+}
+section.team .flex-control-thumbs {
+  top: -55px;
+}
 /*# sourceMappingURL=style.css.map */
+
+.text-box {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+}
