@@ -26,10 +26,10 @@
 	/*----------------------------------------------------*/
     /*  Parallax Effect js
     /*----------------------------------------------------*/
-	function parallaxEffect() {
-    	$('.bg-parallax').parallax();
-	}
-	parallaxEffect();
+	// function parallaxEffect() {
+    // 	$('.bg-parallax').parallax();
+	// }
+	// parallaxEffect();
 	
 	
 //	$('.courses_area').imagesLoaded(function(){
@@ -98,22 +98,22 @@
 	/*----------------------------------------------------*/
     /*  MailChimp Slider
     /*----------------------------------------------------*/
-    function mailChimp(){
-        $('#mc_embed_signup').find('form').ajaxChimp();
-    }
-    mailChimp();
+    // function mailChimp(){
+    //     $('#mc_embed_signup').find('form').ajaxChimp();
+    // }
+    // mailChimp();
 	
-	$('select').niceSelect();
+	// $('select').niceSelect();
 	
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
-    $('.imageGallery1 .light').simpleLightbox();
+    // $('.imageGallery1 .light').simpleLightbox();
 	
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	// $('.counter').counterUp({
+	// 	delay: 10,
+	// 	time: 1000
+	// });
 	
 	/*----------------------------------------------------*/
     /*  Testimonials Slider
@@ -136,17 +136,17 @@
     }
     testimonials_slider();
 	
-	$(document).ready(function() {
-		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
+	// $(document).ready(function() {
+	// 	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+	// 		disableOn: 700,
+	// 		type: 'iframe',
+	// 		mainClass: 'mfp-fade',
+	// 		removalDelay: 160,
+	// 		preloader: false,
 
-			fixedContentPos: false
-		});
-	}); 
+	// 		fixedContentPos: false
+	// 	});
+	// }); 
 	
 	/*----------------------------------------------------*/
     /*  Google map js
