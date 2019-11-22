@@ -267,8 +267,10 @@
 		padding-bottom: 30px;
 	}
 	.h_blog_item .h_blog_img img {
-		width: 100%;
+		width: 60%;
 	}
+	    
+	
 	.h_blog_item {
 		max-width: 555px;
 		margin: 0px auto 50px;
