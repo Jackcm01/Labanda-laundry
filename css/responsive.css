@@ -20,13 +20,13 @@
         width: 130px;
     }
     section.team .flexslider {
-        padding-top: 200px;
+        padding-top: 125px;
     }
     section.team .flexslider .team-text h3 {
         margin-top: 0px;
     }
     section.team .flex-control-thumbs {
-        top: -55px;
+        top: -125px;
     }
 
 @media (max-width:1619px){
