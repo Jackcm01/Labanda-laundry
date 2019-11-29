@@ -2006,4 +2006,29 @@ section.team .flexslider .team-text h3 {
 section.team .flex-control-thumbs {
   top: -55px;
 }
+
+
+.contact_area a {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+	color: #76bdb5;
+	text-decoration: underline
+}
+
+.footer_inner a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline
+}
 /*# sourceMappingURL=style.css.map */
