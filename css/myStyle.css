@@ -1,0 +1,36 @@
+@font-face {
+    font-family: D-DIN;
+    src: url(../fonts/D-DIN.otf) format("opentype");
+}
+@font-face {
+    font-family: D-DIN-Bold;
+    src: url(../fonts/D-DIN-Bold.otf) format("opentype");
+}
+  
+* {
+    font-family: "D-DIN", "D-DIN-Bold";
+}
+body{
+    font-size: 16px;
+}
+.header_area{
+    background-color: black;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+    color: white;
+    font-family: "D-DIN-Bold";
+}
+.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+	color: #76bdb5;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(118,189,181, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 750px) {
+    .header_area .navbar .nav .nav-item {
+        padding: 1rem;
+    }
+}
