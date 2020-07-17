@@ -12,6 +12,7 @@
 }
 body{
     font-size: 16px;
+    color: black;
     line-height: 1 !important;
 }
 h1, h2, h3, h4, h5 {
@@ -43,7 +44,7 @@ h1, h2, h3, h4, h5 {
 	color: #76bdb5;
 }
 
-.main_btn {
+.main_btn, .main_btn_2 {
     color: #000;
     font-family: "D-DIN";
     text-align: center;
@@ -59,6 +60,10 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid #76bdb5;  
 }
 
+.main_btn_2:hover{
+	color: #000;
+	background: rgba( 255, 255, 255, 0.6);
+}
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -84,7 +89,39 @@ h1, h2, h3, h4, h5 {
     color: black;
     margin-top: 4rem;
 }
+footer{
+    background: #76bdb5;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+}
+footer a:hover{
+    color: #000;
+    text-decoration: underline
+}
 
+.instagram_area{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list{
+    list-style: none;
+}
+.list li{
+    display: inline-block;
+}
 
 @media (min-width: 750px) {
     .header_area .navbar .nav .nav-item {
