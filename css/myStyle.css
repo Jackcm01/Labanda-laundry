@@ -171,6 +171,16 @@ footer a:hover{
     display: inline-block;
 }
 
+.terminos-link{
+    color: #000;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+}
+.terminos-link:hover{
+    color: #76bdb5;
+    text-decoration: underline
+}
+
 
 @media (min-width: 750px) {
     .header_area .navbar .nav .nav-item {
@@ -184,5 +194,8 @@ footer a:hover{
     }
     #Precios h5 {
         font-size: 1.03rem;
+    }
+    #servicio{
+        margin-top: 1.5rem;
     }
 }
