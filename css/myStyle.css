@@ -25,7 +25,7 @@ section{
 
 .banner_content {
     font-family: "D-DIN-Bold";
-    color: white;
+    color: black;
 }
 .banner_content h1{
     padding: 7rem 0 5rem 0;
@@ -89,7 +89,7 @@ section{
     ;
 }
 .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-	color: #76bdb5;
+	color: #93C0CD;
 }
 
 .main_btn, .main_btn_2 {
@@ -99,13 +99,13 @@ section{
     cursor: pointer;
     border-radius: 10px;
     transition: all 300ms linear 0s;
-    background-color: #76bdb5;
+    background-color: #93C0CD;
 }
 
 .main_btn:hover {
-	color: #76bdb5;
+	color: #93C0CD;
 	background: transparent;
-	border: 1px solid #76bdb5;  
+	border: 1px solid #93C0CD;  
 }
 
 .main_btn_2:hover{
@@ -128,8 +128,11 @@ section{
 
 #home{
     background: url(../img/banner/home-banner.jpg) no-repeat scroll center;
-    background-size: cover;
-    min-height: 36rem;
+    background-size: contain;
+    min-height: 100px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
 }
 
 #servicio{
@@ -138,7 +141,7 @@ section{
     margin-top: 4rem;
 }
 footer{
-    background: #76bdb5;
+    background: #93C0CD;
     text-align: center;
 }
 footer p{
@@ -177,7 +180,7 @@ footer a:hover{
     transition: all 300ms linear 0s;
 }
 .terminos-link:hover{
-    color: #76bdb5;
+    color: #93C0CD;
     text-decoration: underline
 }
 
