@@ -7,441 +7,296 @@
         <link rel="icon" type="image/png" href="img/favicon.png" />
         <title>La Banda Laundry</title>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <!-- main css -->
-		<link rel="stylesheet" href="css/flexslider.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- estilos propios -->
+		<link rel="stylesheet" href="css/myStyle.css">
+		<link rel="stylesheet" href="css/mySlider.css">
+
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
     </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
+    <body>        
         <header class="header_area">
-            <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#Servicio">Servicio</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#Precios">Precios</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#Lavar">¡ LAVAR !</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
-							</ul>
-						</div> 
+			<div class="container">
+				<nav class="navbar navbar-expand-lg  fixed-top ">
+					<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+
+					<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse " id="navbarText">
+					<ul class="nav navbar-nav ml-auto">
+						<li class="nav-item" data-toggle="collapse" data-target="#navbarText"><a class="nav-link" href="#">Home</a></li> 
+						<li class="nav-item" data-toggle="collapse" data-target="#navbarText"><a class="nav-link" href="#Servicio">Servicio</a></li> 
+						<li class="nav-item" data-toggle="collapse" data-target="#navbarText"><a class="nav-link" href="#Precios">Precios</a></li> 
+						<li class="nav-item" data-toggle="collapse" data-target="#navbarText"><a class="nav-link" href="#Lavar">¡ LAVAR !</a></li> 
+						<li class="nav-item" data-toggle="collapse" data-target="#navbarText"><a class="nav-link" href="#Contacto">Contacto</a></li>
+					</ul>
 					</div>
-            	</nav>
-            </div>
-        </header>
-        <!--================Header Menu Area =================-->
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-           	<div class="box_1620">
-           		<div class="banner_inner d-flex align-items-center">
-					<div class="container">
-						<div class="banner_content text-center">
-						<h1>LAVANDERÍA DE ROPA CASUAL POR KILO<br><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 KG&nbsp;&nbsp;-&nbsp; $4.000<br>
-							7~10 KG&nbsp;&nbsp;-&nbsp; $25.000<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+10 KG&nbsp;&nbsp;-&nbsp; $2.500 x KG</h1>
-							<p>¡Entregamos tu ropa lista para usar nuevamente!<br> Lavamos, secamos y doblamos, en cuestión de horas la tendrás.</p><br>
+				</nav>
+			</div>
+		</header>
+		<section id="home">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="container">
+					<div class="banner_content text-center">
+						<h1>LAVANDERÍA DE ROPA CASUAL POR KILO</h1>
+						<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Kg - $4.000</h2>
+						<h2>&nbsp;7~10 Kg - $25.000</h2>
+						<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+10 Kg - $2.500/Kg</h2>
+						<p><strong>¡Entregamos tu ropa lista para usar nuevamente!</strong><br> Lavamos, secamos y doblamos. En cuestión de horas la tendrás.</p><br>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--================Servicio=================-->
+		<a name="Servicio"></a>
+		<section id="Servicio">
+			<div class="container custom-font">
+				<div class="row justify-content-md-center">
+					<div class="col col-md-8" id="servicio">
+						<h2>SERVICIO</h2>
+						<h3>Lavamos, secamos y doblamos.</h3>
+						<p>Somos una lavandería de ropa casual, lavamos como en casa, pero <strong>sin gastos extras de dinero y tiempo,</strong> te entregamos tu ropa del día a día lista para que vuelvas a usarla.</p><br>
+						<h4>Lunes a Sábado de 9:00am a 6:00pm</h4>
+						<p>Lee nuestros <a class="terminos-link" href="Legales.html"><strong>TÉRMINOS Y CONDICIONES</strong></a></p>	
+					</div>
+				</div>
+
+				<!--Carousel Wrapper-->
+				<div id="carousel-thumb" class="carousel slide carousel-thumbnails" data-ride="carousel" data-interval="10000">
+					<!--/.Controls-->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-thumb" data-slide-to="0" class="active">
+						<img src="img/slider/slider_1.png" width="100">
+						</li>
+						<li data-target="#carousel-thumb" data-slide-to="1">
+						<img src="img/slider/slider_2.png" width="100">
+						</li>
+						<li data-target="#carousel-thumb" data-slide-to="2">
+						<img src="img/slider/slider_3.png" width="100">
+						</li>
+					</ol>
+					<!--Slides-->
+					<div class="carousel-inner col-sm-8 mx-sm-auto my-3" role="listbox" >
+						<div class="carousel-item active">
+							<div class="carousel-caption d-block" height= 100rem>
+								<h3>LAVAR</h3>
+							<p>Utilizamos máquinas lavadoras semindustriales, que <strong>cuidan de tu ropa como en casa</strong>, con menos consumo de agua y luz. Además <strong>usamos nuestros productos BIO:</strong> Detergente, suavizante y quitamachas sin cloro.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption d-block">
+								<h3>SECAR</h3>
+								<p>Dependiendo del material se <strong>seca a diferentes temperaturas</strong>, nuestras máquinas también tienen la opción de flujo de aire frío, para esas prendas que necesitan <strong>especial cuidado.</strong></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption d-block">
+								<h3>DOBLAR</h3>
+								<p>Al salir de la secadora, aprovechamos la temperatura para <strong>doblarlas de inmediato,</strong> evitando arrugas, para que al llegar a casa solo debas ponerla en tu closet <strong>listas para que las uses de nuevo.</strong></p>
+							</div>
+						</div>
+					</div>
+					<!--/.Slides-->
+					<!--Controls-->
+					<a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<!--/.Carousel Wrapper-->
+				<div class="row justify-content-md-center my-4">
+					<div class="col-sm-4 my-auto">
+						<div class="map-responsive">
+							<img class="img-fluid" src="img/home-blog/h-blog-1.jpg" alt="">
+						</div>				
+					</div>
+						
+					<div class="col-sm-4 p-0 my-auto">
+						<div class="py-2 px-2 pt-sm-0 text-sm-left">
+							<h4>INCLUIR</h4>
+							<p>Prendas de lavado habitual como camisetas, jeans, pantalones, ropa interior, medias, toallas, sabanas...<br><br>
+							<strong>Si deseas lavar por separado la ropa blanca y de color, te recomendamos utilizar bolsas aparte.</strong> De esta manera 
+							se cobrarán como servicios separados.</p><br>
+							<a class="btn main_btn" href="#Lavar">¡ LAVA CON NOSOTROS !</a>
 						</div>
 					</div>
 				</div>
-            </div>
-        </section><a name="Servicio"></a>
-        <!--================End Home Banner Area =================-->
-         <section class="service_area p_120">
-        	<div class="container box_1620">
-				<div class="main_title">
-        			<h2>SERVICIO</h2>
-        			<h3>Lavamos, secamos y doblamos.</h3><br>
-                	<p>Somos una lavandería de ropa casual, lavamos como en casa pero sin gastos extras de dinero y tiempo, te entregamos tu ropa del día a día lista para que vuelvas a usarla.</p><br>
-					<h4>Lunes a Sábado de 9:00am a 6:00pm</h4>
-					<p>Lee nuestros <a href="Legales.html"><strong>TÉRMINOS Y CONDICIONES</strong></a></p>
-        		</div>			
-			<section class="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li data-thumb="img/slider/slider_1.png">
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="team-text">
-                                                <h3>LAVAR</h3>
-                                                <p>Utilizamos máquinas lavadoras semindustriales, que cuidan de tu ropa como en casa, con menos consumo de agua y luz. Además utilizamos nuestros productos BIO: Detergente, suavizante y quitamachas (Oxígeno activo, sin cloro).</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li data-thumb="img/slider/slider_2.png">
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="team-text">
-                                                <h3>SECAR</h3>
-                                                <p>Dependiendo del material se seca a diferentes temperaturas, nuestras máquinas tambien tienen la opción de flujo de aire frío, para esas prendas que necesitan especial cuidado.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li data-thumb="img/slider/slider_3.png">
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="team-text">
-                                                <h3>DOBLAR</h3>
-                                                <p>Al salir de la secadora, aprovechamos la temperatura para doblarlas de inmediato, evitando arrugas y así doblarla, para que al llegar a casa solo debas ponerla en tu closet listas para que las uses de nuevo.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-					
-        
-            </div>
-        </section>
-        <!--================Home Blog Area =================-->
-        <section class="home_blog_area pad_top">
-        	<div class="container">
-        		<div class="home_blog_inner">
-        			<div class="row h_blog_item">
-        				<div class="col-lg-6">
-							<div class="h_blog_img">
-								<img class="img-fluid" src="img/home-blog/h-blog-1.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="h_blog_titulo_caja">
-								<div class="h_blog_titulo izquierda">
-									<h4>INCLUIR</h4>
-								</div>
-							</div>
-							<div class="h_blog_text">
-								<div class="h_blog_text_inner left">
-									<p>Prendas de lavado habitual como camisetas, jeans, pantalones, ropa interior, medias, toallas, sabanas...<br><br>
-									Si deseas lavar por separado la ropa blanca y de color, te recomendamos utilizar bolsas aparte. De esta manera 
-									se cobrarán como servicios separados.</p><br>
-								    <a class="main_btn" href="#Lavar">¡ LAVA CON NOSOTROS !</a>
-								</div>
-							</div>
-						</div>
-        			</div>
-        			<div class="row h_blog_item">
-						<div class="col-lg-6">
-							<div class="h_blog_titulo_caja">
-								<div class="h_blog_titulo derecha">
-									<h4>NO INCLUIR</h4>
-								</div>
-							</div>
-							<div class="h_blog_text">
-								<div class="h_blog_text_inner right">
-									<p>Prendas delicadas, trajes, vestidos de fiesta, zapatos, cubre camas de plumas...<br><br>
-									<strong>No prestamos servicio de lavado en seco.</strong><br><br>
-									<strong>La empresa no se hace responsable de cualquier daño causado.</strong></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="h_blog_img">
-								<img class="img-fluid" src="img/home-blog/h-blog-2.jpg" alt="">
-							</div>
+				<div class="row justify-content-md-center my-4 my-auto">
+					<div class="col-md-4 my-auto order-md-2">
+						<div class="map-responsive">
+							<img class="img-fluid" src="img/home-blog/h-blog-2.jpg" alt="">
+						</div>	
+					</div>
+						
+					<div class="col-sm-4 p-0 order-sm-1 my-auto">
+						<div class="py-2 px-2 pt-sm-0 text-sm-right">
+							<h4>NO INCLUIR</h4>
+							<p>Prendas delicadas, trajes, vestidos de fiesta, zapatos, cubre camas de plumas...</br></br>
+							La empresa no se hace responsable de daño causado.<br>
+							<strong>* No prestamos servicio de lavado en seco.</strong></br>
+							<strong>* No prestamos servicio de planchado.</strong>
+							</p>
 						</div>
 					</div>
-					<div class="row h_blog_item">
-
-						<div class="col-lg-6">
-							<div class="h_blog_img">
-								<iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3739216689073!2d-75.57393718474923!3d6.214318528403191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44295908500c87%3A0x7c0f2d5edf81788f!2sLa%20Banda%20Laundry!5e0!3m2!1ses-419!2sco!4v1571816575178!5m2!1ses-419!2sco" 
-								width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-							</div>
-							
-						</div>
-							
-						<div class="col-lg-6">
-							<div class="h_blog_titulo_caja">
-								<div class="h_blog_titulo izquierda">
-									<h4>¡ACÁ ESTAMOS!</h4>
-								</div>
-							</div>
-							<div class="h_blog_text">
-								<div class="h_blog_text_inner left">
-									<p>Ven a conocer nuestro local, trae tu ropa y te diremos en qué tiempo estará lista para que puedas venir a recogerla.</p><br>
-									<a class="main_btn" href="https://g.page/La-Banda-Laundry?share" target="_blank">GOOGLE MAPS</a>
-								</div>
-							</div>
-						</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-		
+				</div>
+				
+			</div>
+		</section>
+		<!--================Precios=================-->
 		<a name="Precios"></a>
-        <!--================Precios=================-->
-        <section class="service_area p_120">
-        	<div class="container box_1620">
-        		<div class="main_title">
-        			<h2>PRECIOS</h2>
-        			<h3>Lavamos, secamos y doblamos por este precio.</h3>
-                    <p>Deja de gastar en recibos de agua, luz, gas, detergentes y sobre todo tu tiempo y esfuerzo. <br>¡Por muy bajo costo y menos tiempo nosotros hacemos el trabajo!</p>
-        		</div>
-				<div class="row m0 service_inner">
-        			
-        			<div class="col-lg-3 col-md-6 p0">
-        				<div class="service_text" align="right">
-        					<h1>1 kg<br />$4.000</h1>
-        					<h5>¡Lavada, secada y doblada!</h5>
-							<p>Es en promedio la ropa de dos días de uso.</p>
-        				</div>
-        			</div>
-                    
-        			<div class="col-lg-3 col-md-6 p0">
-        				<div class="service_img">
-        					<img class="img-fluid" src="img/service/service-1.jpg" alt="">
-        				</div>
-        			</div>
-        			
-					<div class="col-lg-3 col-md-6 p0">
-        				<div class="service_img">
-        					<img class="img-fluid" src="img/service/service-2.jpg" alt="">
-        				</div>
-        			</div>
+		<section id="Precios">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col col-md-8" id="servicio">
+						<h2>PRECIOS</h2>
+						<h3>Lavamos, secamos y doblamos por este precio.</h3>
+						<p>Deja de gastar en recibos de agua, luz, gas, detergentes y sobre todo tu tiempo y esfuerzo. <br><strong>¡Por muy bajo costo y menos tiempo nosotros hacemos el trabajo!</strong></p>
+					</div>
+				</div>
+				<div class="row custom-font">
 					
-                    <div class="col-lg-3 col-md-6 p0">
-        				<div class="service_text" align="left">
-        					<h1>7 a 10 kgs<br />$25.000</h1>
-							<h5>¡Lavada, secada y doblada!</h5>
-        					<p>Son en promedio la ropa usada en una semana de dos personas.</p>
-        				</div>
-        			</div>
-        			
-					<div class="col-lg-3 col-md-6 p0">
-       				  <div class="service_text" align="right">
-        					<h1>+ 10 kgs<br />$2.500 x kg</h1>
-							<h5>¡Lavada, secada y doblada!</h5>
-        					<p>Por mayor cantidad de ropa, tendrás una mejor tarifa de precio.</p>
-        				</div>
-        			</div>
-        			
-        			<div class="col-lg-3 col-md-6 p0">
-        				<div class="service_img">
-        					<img class="img-fluid" src="img/service/service-3.jpg" alt="">
-        				</div>
-        			</div>
+					<div class="col-md-3 col-6 p-0 my-auto">
+						<div class="pb-2 px-2" align="right">
+							<h3 class="mb-0 custom-font">1 kg<br />$4.000</h3>
+							<h5 class="mb-0 custom-font">¡Lavada, secada y doblada!</h5>
+							<p class="mb-0 custom-font">Es en promedio la ropa de dos días de uso.</p>
+						</div>
+					</div>
 					
-        		</div>
-        	</div>
-        </section>
-		<!--================Final Precios=================-->
-		
+					<div class="col-md-3 col-6 p-0 my-auto">
+							<img class="img-fluid" src="img/service/service-1.jpg" alt="">
+					</div>
+
+					<div class="col-md-3 col-6 p-0 my-auto">
+							<img class="img-fluid" src="img/service/service-2.jpg" alt="">
+					</div>
+					
+					<div class="col-md-3 col-6 p-0 my-auto">
+						<div class="pb-2 px-2" align="left">
+							<h3 class="mb-0 custom-font">7 a 10 kg<br />$25.000</h3>
+							<h5 class="mb-0 custom-font">¡Lavada, secada y doblada!</h5>
+							<p class="mb-0 custom-font">Es en promedio la ropa de dos personas, usada en una semana.</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-6 p-0 my-auto">
+						<div class="pb-2 px-2"align="right">
+							<h3 class="mb-0 custom-font">+ 10 kg<br />$2.500 x kg</h3>
+							<h5 class="mb-0 custom-font">¡Lavada, secada y doblada!</h5>
+							<p class="mb-0 custom-font">Por mayor cantidad de ropa, tendrás una mejor tarifa de precio.</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-6 p-0 my-auto">
+						<img class="img-fluid" src="img/service/service-3.jpg" alt="">
+					</div>
+					
+				</div>
+			</div>
+		</section>
 		<!--================Lavar=================-->
 		<a name="Lavar"></a>
-		<section class="service_area p_120">
-        	<div class="container box_1620">
-        		<div class="home_blog_inner">
-        			<div class="main_title">
-        			<h2>LLEVARLA / PEDIR DOMICILIO</h2>
-        			<h3>Tienes la opcion de traer tu ropa o solicitar domicilio</h3>
-                    <p>Puedes elegir la opción que mejor se ajuste a tus necesidades, controla tu tiempo,<br> nosotros nos encargamos de la ropa.</p>
-        		</div> 
-					
-					<div class="row h_blog_item">
-
-						<div class="col-lg-6">
-							<iframe class="h_blog_img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3739216689073!2d-75.57393718474923!3d6.214318528403191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44295908500c87%3A0x7c0f2d5edf81788f!2sLa%20Banda%20Laundry!5e0!3m2!1ses-419!2sco!4v1571816575178!5m2!1ses-419!2sco" 
-								frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-						</div>
-							
-						<div class="col-lg-6">
-							<div class="h_blog_titulo_caja">
-								<div class="h_blog_titulo izquierda">
-									<h4>¡ACÁ ESTAMOS!</h4>
-								</div>
-							</div>
-							<div class="h_blog_text">
-								<div class="h_blog_text_inner left">
-									<p>Ven a conocer nuestro local, trae tu ropa y te diremos en qué tiempo estará lista para que puedas venir a recogerla.</p><br>
-									<a class="main_btn" href="https://g.page/La-Banda-Laundry?share" target="_blank">GOOGLE MAPS</a>
-								</div>
-							</div>
-						</div>
-        			</div>
-        			<div class="row h_blog_item">
-						<div class="col-lg-6">
-							<div class="h_blog_titulo_caja">
-								<div class="h_blog_titulo derecha">
-									<h4>¡DOMICILIO!</h4>
-								</div>
-							</div>
-							<div class="h_blog_text">
-								<div class="h_blog_text_inner right">
-									<p><strong>*</strong>El domicilio tiene un costo extra de <strong>$10.000</strong> pesos, recoger y entregar de nuevo. <br>Te contactaremos para acordar el horario.<br><strong>Domicilios solo en sector del poblado y cercanías.</strong></p><br>
-									<a class="main_btn" href="#Domicilios">¡ PEDIR DOMICILIO !</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="h_blog_img">
-								<img class="img-fluid" src="img/home-blog/h-blog-4.jpg" alt="">
-							</div>
-						</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================Final Lavar=================-->
-        
+		<section id="lavar">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col col-md-8" id="servicio">
+						<h2>LLEVARLA / PEDIR DOMICILIO</h2>
+						<h3>Tienes la opción de traer tu ropa o solicitar domicilio</h3>
+					  <p>Puedes elegir la que mejor se ajuste a tus necesidades, controla tu tiempo,<br><strong>¡Nosotros nos encargamos de la ropa!.</strong></p>
+					</div>
+				</div>
 		
-				
-        <a name="Domicilios"></a>
-        <!--================End Service Area =================-->
-         <section class="service_area p_120">
-        	<div class="container box_1620">
-        		<div class="main_title">
-      <section class="contact_area">
-            <div class="text">
-				<p>Lee nuestros <a href="Legales.html"><strong>TÉRMINOS Y CONDICIONES</strong></a></p>
-            </div>
-          <!--  
-		  <div id='wrapper'>
-   <form action='' class='form'>
-   
-	<p class='field required half'>	
-      <label class='label required' for='name'></label>
-      <input class='text-input' id='name' name='name' required type='text' placeholder="Nombre">
-    </p>
-	<p class='field required half'>	
-      <label class='label required' for='tel'></label>
-      <input class='text-input' id='tel' name='tel' required type='number' placeholder="Teléfono">
-    </p>  
-	<p class='field required half'>	
-      <label class='label' for='email'></label>
-      <input class='text-input' id='email' name='email' required type='email' placeholder="E-mail">
-    </p>   
-	<p class='field required half'>	
-      <label class='label required' for='direccion'></label>
-      <input class='text-input' id='name' name='name' required type='text' placeholder="Dirección Completa">
-    </p>
-	<p class='field required half'>	
-      <label class='label required' for='Cantidad'></label>
-      <input class='text-input' id='name' name='name' required type='text' placeholder="Cantidad aprox.">
-    </p>
-    <p class='field required half'>	
-      <label class='label required' for='Edificio'></label>
-      <input class='text-input' id='name' name='name' required type='text' placeholder="Nombre del Edificio">
-    </p>  
-	<p class='field'>
-      <label class='label' for='message'></label>
-      <textarea class='textarea' cols='50' id='message' name='message' required rows='1' placeholder="Comentarios extra"></textarea>
-    </p>
-	<label><p><input type="checkbox"> Lo dejo en portería</p></label>  
-    <p class='field'>
-      <input class='button' type='submit' value='¡lAVAR!'>
-    </p>
-  </form> 
-</div>-->
-
-        </section>
-        </div>
-        	</div>
-        </section>
-        <!--================Instagram Area =================-->
-        <section class="instagram_area">
-        	<div class="container box_1620">
-        		<div class="insta_btn">
-        			<a class="main_btn2" href="https://www.instagram.com/labandalaundry/" target="_blank">¡INSTAGRAM!</a>
-        		</div>
-        		<div class="instagram_image row m0">
-        			<a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Instagram Area =================-->
-        <a name="Contacto"></a>
-        <!--================Footer Area =================-->
-        <footer class="footer_area">
-        	<div class="container">
-        		<div class="row footer_inner justify-content-md-center">
-        			<div class="col-md-4">
-        				<aside class="f_widget ab_widget">
-        					<div class="f_title">
-        						<center><h3>LA BANDA LAUNDRY</h3></center>
-        					</div>
-        					<center><p>Somos La Banda de personas, dispuestas a lavar tu ropa como en casa, para que ocupes tu tiempo en lo que más quieres.<br><br>
-							LA BANDA LAUNDRY S.A.S.<br>Nit. 901.249.442-0</p></center>
-							
-        					<!--<p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-</p>-->
-        				</aside>
-        			</div>
-					
-					<div class="col-md-1">
+		
+				<div class="row justify-content-md-center my-4">
+					<div class="col-sm-4 my-auto">
+						<div class="map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3739216689073!2d-75.57393718474923!3d6.214318528403191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44295908500c87%3A0x7c0f2d5edf81788f!2sLa%20Banda%20Laundry!5e0!3m2!1ses-419!2sco!4v1571816575178!5m2!1ses-419!2sco" 
+						width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>				
+					</div>
+						
+					<div class="col-sm-4 p-0 my-auto">
+						<div class="py-2 px-2 pt-sm-0 text-sm-left">
+							<h3>¡ACÁ ESTAMOS!</h3>
+							<p><strong>Ven a conocer nuestro local,</strong> trae tu ropa y te diremos en qué tiempo estará lista para que puedas venir a recogerla.</p>
+							<a class="btn main_btn" href="https://g.page/La-Banda-Laundry?share" target="_blank">GOOGLE MAPS</a>
 						</div>
-        			<div class="col-md-3">
-        				<aside class="f_widget news_widget ">
-        					<div class="f_title">
-        						<center><h3>CONTACTO</h3></center>
-        					</div>
-                            <center><p>Lunes a Sábado ( 9:00 am - 6:00 pm )</p></center>
-							<a href="https://api.whatsapp.com/send?phone=573103144764&text=Hola!%20Deseo%20lavar%20mi%20ropa%20con%20La%20Banda!" target="_blank"> <center> Cel: +57 310 314 4764 </center></a>
-							<a href="mailto:labandalaundry@gmail.com"><center>labandalaundry@gmail.com</center></a><br>
-							<a href="https://g.page/La-Banda-Laundry?share" target="_blank"><center>Calle 13 # 43d - 38 (101)<br> Manila - Poblado - Medellín</center></a>
-        				</aside>
-        			</div>
-					<div class="col-md-1">
+					</div>
+				</div>
+				<div class="row justify-content-md-center my-4 my-auto">
+					<div class="col-md-4 my-auto order-md-2">
+						<div class="map-responsive">
+							<img class="img-fluid" src="img/home-blog/h-blog-4.jpg" alt="">
+						</div>	
+					</div>
+						
+					<div class="col-sm-4 p-0 order-sm-1 my-auto">
+						<div class="py-2 px-2 pt-sm-0 text-sm-right">
+							<h4 >¡DOMICILIO!</h4>
+							<p  ><strong>*</strong>El domicilio tiene un costo extra de <strong>$10.000</strong> pesos, <strong>recoger y entregar de nuevo.</strong> <br>
+								Te contactaremos para acordar el horario.<br><strong>Domicilios solo en sector del poblado y cercanías.</strong></p>
+							<a class="btn main_btn" href="https://api.whatsapp.com/send?phone=573103144764&text=Hola!%20Deseo%20lavar%20mi%20ropa%20con%20La%20Banda!"  target="_blank">¡PEDIR DOMICILIO!</a>
 						</div>
-        			<div class="col-md-3">
-        				<aside class="f_widget social_widget">
-        					<div class="f_title">
-        						<center><h3>¡ SÍGUENOS !</h3></center>
-        					</div>
-        					<ul class="list">
-        						<center><li><a href="mailto:labandalaundry@gmail.com" target="_blank"><img src="img/Redes/correo.png" alt="Mail La Banda Laundy"></a></li>
-								<li><a href="https://api.whatsapp.com/send?phone=573103144764&text=Hola!%20Deseo%20lavar%20mi%20ropa%20con%20La%20Banda!" target="_blank"><img src="img/Redes/whastapp.png" alt="Whatsapp La Banda Laundy"></a></li>
-        						<li><a href="https://www.instagram.com/labandalaundry/" target="_blank"><img src="img/Redes/Instagram.png" alt="Instagram La Banda Laundy"></a></li>
-                                <li><a href="https://www.facebook.com/LaBandaLaundryCO/" target="_blank"><img src="img/Redes/facebook.png" alt="Facebook La Banda Laundy"></a></li></center>
-								<br>
-								<center><a href="Legales.html">TÉRMINOS Y CONDICIONES</a></center>
-        					</ul>
-        				</aside>
-        			</div>
-        		
-        	</div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
+					</div>
+				</div>
+			</div> 
+		</section>
+		<!--================Contacto=================-->
+		<a name="Contacto"></a>
+		<footer class="mt-5">
+			<!--================Instagram Area =================-->
+			<section class="">
+				<div class="container">
+					<div class="instagram_area row m0 justify-content-center">
+						<a class="col-4 col-sm-2 p-0" href="#"><img class="img-fluid" src="img/instagram/ins-1.jpg" alt=""></a>
+						<a class="col-4 col-sm-2 p-0" href="#"><img class="img-fluid"src="img/instagram/ins-2.jpg" alt=""></a>
+						<a class="col-4 col-sm-2 p-0" href="#"><img class="img-fluid"src="img/instagram/ins-3.jpg" alt=""></a>
+						<a class="col-2 p-0 d-none d-sm-block" href="#"><img class="img-fluid"src="img/instagram/ins-4.jpg" alt=""></a>
+						<a class="col-2 p-0 d-none d-sm-block" href="#"><img class="img-fluid"src="img/instagram/ins-5.jpg" alt=""></a>
+						<a class="col-2 p-0 d-none d-sm-block" href="#"><img class="img-fluid"src="img/instagram/ins-6.jpg" alt=""></a>
+						<div class="centered"><a class="btn main_btn_2" href="https://www.instagram.com/labandalaundry/" target="_blank">¡INSTAGRAM</a></div>
+					</div>
+				</div>
+			</section>
+			<!--================End Instagram Area =================-->
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-md-4 my-md-5 my-2">
+							<h4>LA BANDA LAUNDRY</h4>
+							<p>Somos La Banda de personas, dispuestas a lavar tu ropa como en casa, para que ocupes tu tiempo en lo que más quieres.<br><br>
+							LA BANDA LAUNDRY S.A.S.<br>Nit. 901.249.442-0</p>
+					</div>
+					<div class="col-md-4 my-md-5 my-2">
+							<h4>CONTACTO</h4>
+							<p>Lunes a Sábado ( 9:00 am - 6:00 pm )</p>
+							<a href="https://api.whatsapp.com/send?phone=573103144764&text=Hola!%20Deseo%20lavar%20mi%20ropa%20con%20La%20Banda!" target="_blank">  Cel: +57 310 314 4764 </a><br><br>
+							<a href="mailto:labandalaundry@gmail.com" target="_blank">labandalaundry@gmail.com</a><br><br>
+							<a href="https://g.page/La-Banda-Laundry?share" target="_blank">Calle 13 # 43d - 38 (101)<br> Manila - Poblado - Medellín</a>
+					</div>
+					<div class="col-md-4 my-md-5 my-2">
+						<h4>¡ SÍGUENOS !</h4>
+						<div class="row justify-content-center py-3">
+							<div class="col-1"><a href="mailto:labandalaundry@gmail.com" target="_blank"><img src="img/Redes/correo.png" alt="Mail La Banda Laundy"></a></div>
+							<div class="col-1"><a href="https://api.whatsapp.com/send?phone=573103144764&text=Hola!%20Deseo%20lavar%20mi%20ropa%20con%20La%20Banda!" target="_blank"><img src="img/Redes/whastapp.png" alt="Whatsapp La Banda Laundy"></a></div>
+							<div class="col-1"><a href="https://www.instagram.com/labandalaundry/" target="_blank"><img src="img/Redes/Instagram.png" alt="Instagram La Banda Laundy"></a></div>
+							<div class="col-1"><a href="https://www.facebook.com/LaBandaLaundryCO/" target="_blank"><img src="img/Redes/facebook.png" alt="Facebook La Banda Laundy"></a></div>
+						</div>
+						<a href="Legales.html"><strong>TÉRMINOS Y CONDICIONES</strong></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/theme.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-	    <script src="js/active.js"></script>
+		<!-- late javascripts -->
 	    <script src="js/wp.js"></script>
-        
     </body>
 </html>
